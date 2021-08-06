@@ -1,0 +1,24 @@
+"use strict";
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createSvgIcon = _interopRequireDefault(require("../utils/createSvgIcon"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+var _default = (0, _createSvgIcon["default"])( /*#__PURE__*/React.createElement("path", {
+  d: "M2112 5109 c-132 -26 -326 -208 -514 -484 -300 -439 -558 -1071 -609\r\n-1495 -20 -165 4 -252 95 -356 l45 -51 -122 -101 c-178 -148 -224 -193 -246\r\n-243 -23 -50 -26 -82 -10 -143 l11 -43 -84 -104 c-46 -57 -99 -128 -118 -156\r\n-34 -51 -36 -52 -83 -53 -107 0 -151 -44 -245 -240 -140 -291 -211 -555 -228\r\n-843 -12 -199 28 -429 94 -550 133 -244 627 -309 1390 -181 375 62 970 220\r\n1095 289 198 111 239 451 116 953 -48 197 -120 396 -233 645 l-26 57 33 -14\r\nc17 -8 86 -37 152 -66 542 -236 1051 -396 1480 -466 165 -27 472 -25 577 4\r\n261 72 376 226 425 571 15 109 15 126 2 150 -21 37 -55 51 -90 39 -38 -13 -45\r\n-28 -54 -113 -18 -184 -69 -337 -135 -402 -194 -195 -737 -155 -1520 112 -262\r\n89 -538 202 -936 381 -47 21 -58 33 -129 141 -110 167 -186 265 -284 367 -163\r\n167 -280 238 -408 244 -92 5 -126 -7 -221 -77 -73 -54 -79 -57 -100 -43 -40\r\n27 -92 107 -98 154 -8 58 12 206 47 348 137 559 500 1240 812 1525 83 75 119\r\n95 193 102 106 11 382 -55 404 -98 8 -15 4 -42 -19 -117 -115 -373 -167 -790\r\n-143 -1142 14 -197 37 -338 59 -362 28 -31 78 -22 172 28 356 193 675 481 973\r\n882 78 105 103 132 122 132 48 0 345 -252 495 -420 45 -49 81 -96 81 -104 0\r\n-8 -90 -197 -200 -420 -110 -224 -200 -414 -200 -422 0 -55 49 -79 129 -64\r\n182 36 355 115 541 249 85 60 118 72 138 49 35 -43 134 -315 176 -482 14 -54\r\n33 -107 42 -117 38 -42 124 -7 124 50 0 107 -170 581 -233 650 -31 34 -95 61\r\n-144 61 -24 0 -43 4 -43 8 0 9 -136 218 -184 282 -25 35 -25 35 -10 88 21 70\r\n12 128 -28 184 -83 115 -495 491 -595 542 -43 21 -118 20 -170 -3 l-42 -19\r\n-133 80 c-166 100 -453 243 -618 307 -111 43 -126 52 -134 77 -34 116 -80 156\r\n-225 201 -160 48 -303 63 -409 42z m739 -470 c226 -89 679 -330 679 -361 0\r\n-22 -171 -228 -300 -361 -74 -77 -180 -178 -235 -224 -127 -106 -383 -279\r\n-395 -267 -5 5 -14 90 -20 189 -19 297 12 621 87 920 35 141 40 155 50 155 3\r\n0 63 -23 134 -51z m1604 -1263 c41 -62 75 -119 75 -125 0 -31 -357 -228 -377\r\n-207 -5 5 215 446 222 446 3 0 39 -51 80 -114z m-2808 -596 c180 -90 460 -446\r\n653 -829 228 -456 356 -981 309 -1270 -13 -82 -44 -156 -77 -181 -35 -28 -86\r\n-25 -157 9 -82 39 -157 102 -254 215 -70 82 -86 96 -112 96 -37 0 -79 -39 -79\r\n-74 0 -42 158 -223 263 -302 31 -23 54 -45 50 -47 -5 -3 -75 -23 -158 -46\r\n-302 -81 -594 -140 -890 -177 -198 -26 -567 -26 -683 -1 -264 57 -321 127\r\n-354 435 -28 267 38 595 188 927 101 225 109 230 230 130 151 -126 315 -219\r\n474 -270 114 -36 146 -36 176 -1 13 15 24 33 24 41 0 8 -81 202 -180 431 -99\r\n230 -180 425 -180 434 0 20 85 103 232 223 l116 96 7 -107 c23 -375 149 -792\r\n386 -1277 108 -222 110 -225 158 -225 31 0 44 6 60 26 12 15 21 32 21 39 0 7\r\n-45 104 -99 216 -221 454 -342 834 -371 1164 -16 188 0 278 60 329 44 37 108\r\n36 187 -4z m-710 -985 c88 -205 99 -235 80 -229 -59 18 -196 98 -282 163 -32\r\n25 -66 51 -74 57 -12 10 -6 23 39 85 71 99 120 159 129 159 4 0 53 -106 108\r\n-235z"
+}), "FoodIcon");
+
+exports["default"] = _default;
