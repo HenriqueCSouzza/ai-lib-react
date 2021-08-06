@@ -1,9 +1,15 @@
 {
-  "name": "ai-zaga-components",
-  "version": "0.1.5",
+  "name": "ai-lib-react",
+  "version": "0.1.7",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "homepage": "https://ai-lib-react.netlify.app/",
+  "repository": "https://github.com/HenriqueCSouzza/ai-lib-react",
+  "author": {
+    "name": "HenriqueCSouzza",
+    "url": "https://github.com/HenriqueCSouzza"
+  },
   "files": [
     "dist",
     "README.md"
@@ -12,7 +18,7 @@
     "start": "webpack serve --progress --inline --hot --port 8080",
     "build": "cross-env NODE_ENV=production babel src --out-dir dist",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o ./docs"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.3",
